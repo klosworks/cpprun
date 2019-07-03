@@ -18,7 +18,7 @@ inline string get_current_process_location()
 {
     constexpr int BUFFERSIZE = 1024;
     char buf[BUFFERSIZE];
-    ssize_t len = readlink("/usr/self/exe", buf, sizeof(buf)-1);
+    ssize_t len = readlink("/proc/self/exe", buf, sizeof(buf)-1);
     release_assert(len != -1); 
     if (len != -1)
         buf[len] = '\0';
