@@ -1,6 +1,6 @@
 [submodule "cpp-subprocess"]
 	path = cpp-subprocess
-	url = https://github.com/arun11299/cpp-subprocess
+	url = https://github.com/klosworks/cpp-subprocess
 [submodule "fmt"]
 	path = fmt
 	url = https://github.com/fmtlib/fmt

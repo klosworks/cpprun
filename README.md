@@ -2,6 +2,8 @@
 
 This is a tool designed to run c++ programs as scripts.
 
+WARNING: work in progress, do not use.
+
 # installation
 
 Please, clone this repository and run
